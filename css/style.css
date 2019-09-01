@@ -1,0 +1,53 @@
+form {
+    width: 220px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  #textboxes input {
+    margin: 5px 0;
+    padding-right: 5px;
+    width: 205px;
+    height: 24px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: right;
+  }
+  
+  #numbers {
+    /*display: inline-flex;
+    width: 200px;*/
+    float: left;
+    width: 160px;
+    /*border: 1px solid red;*/
+  }
+  
+  #numbers button {
+    margin: 1px 0 1px;
+    width: 50px;
+    height: 30px;
+    background-color: #666;
+    color: white;
+    border: 1px solid #666;
+    border-radius: 3px;
+  }
+  
+  #operators {
+    float: left;
+    width: 52px;
+    /*border: 1px solid red;*/
+  }
+  
+  #operators button {
+    width: 50px;
+    margin: 1px 0 1px 2px;
+    height: 30px;
+    background-color: darkorange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 3px;
+  }
